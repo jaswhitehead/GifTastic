@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var displayedButtons = ["Wile E. Coyote", "Stewie Griffin", "Aeon Flux", "Homer Simpson", "Stimpy", "Jeff Boomhauer", "Foghorn Leghorn", "Snake Eyes"];
+    var displayedButtons = ["Wile E. Coyote", "Stewie Griffin", "Aeon Flux", "Homer Simpson", "Stimpy", "Boomhauer", "Optimus Prime", "Foghorn Leghorn", "Snake Eyes"];
 
     function displayImg(){
 
@@ -8,7 +8,7 @@ $(document).ready(function(){
         var input = $(this).attr("data-name");
         var limit = 10;
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=Z6MG1vWMVYKkRVNPewySeOcDiaCdVGpA";   
-        console.log(display-images)
+        console.log(this)
 
         $.ajax({
             url: queryURL, 
