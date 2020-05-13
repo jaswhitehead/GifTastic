@@ -14,6 +14,12 @@ font-family: 'Yellowtail', cursive;
 
 .jumbotron {
     text-align: center;
+    font-family: 'Kavoon', cursive;       
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 60px;
 }
 
 button, div, form, input {
@@ -26,17 +32,21 @@ img {
 }
 
 label {
-    color: #fff;
+    color:yellow;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-right: 100px;
 }
 
-.btn-default {
-    color: #000;
-    font-size: medium;
+.btn-light {
+    color:black;
+    font-weight: bolder;
+    font-size: small;
 }
 
 body {
-	background-image: url("../Images/Background1.jpg");
-    font-family: 'Bad Script', cursive;
+    background-image: url("../Images/Background2.png");
+    font-family: 'Coming Soon', cursive;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -45,4 +55,12 @@ body {
     float: left;
 }
 
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
 
+footer {
+    font-family: 'Kavoon', cursive;
+}
