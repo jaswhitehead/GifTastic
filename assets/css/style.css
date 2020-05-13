@@ -1,0 +1,48 @@
+
+/**These are my chosen Google Fonts**/
+
+/**
+font-family: 'Comic Neue', cursive;
+font-family: 'Coming Soon', cursive;
+font-family: 'Kavoon', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Molle', cursive;
+font-family: 'Yellowtail', cursive;
+**/
+
+/**begin styling**/
+
+.jumbotron {
+    text-align: center;
+}
+
+button, div, form, input {
+	margin: 5px;
+}
+
+img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+label {
+    color: #fff;
+}
+
+.btn-default {
+    color: #000;
+    font-size: medium;
+}
+
+body {
+	background-image: url("../Images/Background1.jpg");
+    font-family: 'Bad Script', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.holder {
+    float: left;
+}
+
+
