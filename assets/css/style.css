@@ -27,8 +27,8 @@ button, div, form, input {
 }
 
 img {
-	max-width: 200px;
-	max-height: 200px;
+	width: 200px;
+	height: 200px;
 }
 
 label {
@@ -55,13 +55,11 @@ body {
     float: left;
 }
 
-.flex-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-}
-
-footer {
+.footer {
     font-family: 'Kavoon', cursive;
     font-weight: bolder;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }

@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var displayedButtons = ["Wile E. Coyote", "Stewie Griffin", "Aeon Flux", "Homer Simpson", "Stimpy", "Boomhauer", "Optimus Prime", "Foghorn Leghorn", "Snake Eyes"];
+    var displayedButtons = ["Wile E. Coyote", "Homer Simpson", "Aeon Flux", "Stimpy", "Stewie Griffin", "Boomhauer", "Optimus Prime", "Foghorn Leghorn", "Snake Eyes"];
 
     function displayImg(){
 
@@ -45,7 +45,7 @@ $(document).ready(function(){
         for (var j = 0; j < displayedButtons.length; j++){
 
             var newButton = $("<button>") 
-            newButton.attr("class", "btn btn-default");
+            newButton.attr("class", "btn btn-light");
             newButton.attr("id", "input")  
             newButton.attr("data-name", displayedButtons[j]); 
             newButton.text(displayedButtons[j]); 
