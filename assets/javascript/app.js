@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var displayedButtons = ["Wile E. Coyote", "Homer Simpson", "Aeon Flux", "Stimpy", "Stewie Griffin", "Boomhauer", "Optimus Prime", "Foghorn Leghorn", "Snake Eyes"];
+    var displayedButtons = ["Wile E. Coyote", "Homer Simpson", "Aeon Flux", "Stimpy", "Boomhauer", "Stewie Griffin", "Optimus Prime", "Foghorn Leghorn", "Snake Eyes"];
 
     function displayImg(){
 
