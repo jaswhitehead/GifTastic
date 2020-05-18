@@ -8,19 +8,19 @@ font-family: 'Kavoon', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Molle', cursive;
 font-family: 'Yellowtail', cursive;
-**/
+**/font-family: 'Yellowtail', cursive;
 
 /**begin styling**/
 
 .jumbotron {
     text-align: center;
-    max-height: 150px;
-    font-family: 'Kavoon', cursive;     
+    max-height: 150px; 
 }
 
 h1 {
     font-weight: bolder;
     font-size: 60px;
+    font-family: 'Kavoon', cursive;  
 }
 
 button, div, form, input {
@@ -52,13 +52,19 @@ body {
     background-size: cover;
 }
 
+p {
+    font-size: 20px;
+    font-family: 'Yellowtail', cursive;
+    color: white;
+}
+
 .holder {
     float: left;
 }
 
 .footer {
     font-family: 'Kavoon', cursive;
-    font-size: 25px;
+    font-size: 20px;
     position: fixed;
     left: 0;
     right: 0;
